@@ -1,0 +1,38 @@
+# Meu Portfólio — João Pedro
+
+Pequeno portfólio estático com projetos pessoais, informações de contato e tema claro/escuro. Feito com HTML, CSS e JavaScript, pensado para ser responsivo em dispositivos móveis.
+
+## Conteúdo
+- index.html
+- assets/style/style.css
+- assets/images/
+- src/main.js
+
+## Como rodar localmente
+1. Abrir o arquivo `index.html` diretamente no navegador; ou
+2. Servir via servidor local (recomendado):
+   - Com Python: `python -m http.server 3000`
+   - Com npm: `npx http-server -p 3000`
+   Depois acesse: `http://localhost:3000`
+
+## Publicar no GitHub
+1. Inicializar o repositório:
+   - `git init`
+   - `git add .`
+   - `git commit -m "Initial commit"`
+2. Criar repositório no GitHub e adicionar remoto:
+   - `git remote add origin <URL_DO_REPOSITORIO>`
+   - `git branch -M main`
+   - `git push -u origin main`
+3. Ativar GitHub Pages nas configurações do repositório (branch `main` / pasta `/root`) ou usar workflow para deploy automático.
+
+## Tecnologias
+- HTML5
+- CSS3 (responsivo)
+- JavaScript (Vanilla)
+
+## Contato
+joaopedrobarbosadasilva021@gmail.com
+
+---
+Licença: escolha uma licença (por exemplo MIT) e adicione um arquivo LICENSE se desejar.
